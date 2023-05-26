@@ -8,6 +8,10 @@ Associated lab: Wiedenheft lab
 
 This script is developed to generate sbatch files to submit AlphaFold runs on MSU Tempest server.
 
+![alt text](https://github.com/WiedenheftLab/AlphaFold_slurm_generator/blob/main/Screenshot%202023-05-26%20at%2014.06.43.png?raw=true)
+
+![alt text](https://github.com/WiedenheftLab/AlphaFold_slurm_generator/blob/main/Screenshot%202023-05-26%20at%2014.06.52.png?raw=true)
+
 SeqIO package from Bio is required to to split multifasta to individual files if the multimer option is turned off. Additionally, tqdm is required to provide a progress bar since some multifasta files can contain long and many sequences.
         
 Syntax:
